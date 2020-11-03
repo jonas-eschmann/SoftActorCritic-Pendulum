@@ -121,7 +121,7 @@ def main():
     interaction = 0
     episode = 0
     episode_return = 0
-    render_interval = 1
+    render_interval = 5
     while True:
         if interaction < warm_start_interactions:
             action = np.random.rand() * 2 - 1
