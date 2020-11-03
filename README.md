@@ -1,6 +1,6 @@
 # SoftActorCritic-Pendulum
 
-Brief, quick and dirty SAC implementation using Tensorflow `2.x`. The entropy coeficient `alpha = 0.2` is fixed and not learned. A solution for the `Pendulum-v0` should be found after about 30 episodes / 6000 steps. 
+Brief (150 lines of code), quick and dirty SAC implementation using Tensorflow `2.x`. The entropy coeficient `alpha = 0.2` is fixed and not learned. A solution for the `Pendulum-v0` should be found after about 30 episodes / 6000 steps. 
 
 ## Dependencies
 
