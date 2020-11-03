@@ -10,3 +10,10 @@ numpy
 tensorflow (2.x)
 tensorflow_probability
 ```
+
+## Tensorboard
+
+The episode returns are also logged into a `log` directory inside the working directory for usage with tensorboard. 
+```
+tensorboard --logdir logs
+```
